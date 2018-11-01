@@ -75,10 +75,10 @@ if(isset($_POST['signUp'])){
 ?>
 <!-- Main -->
 <section id="main" class="wrapper style1">
-	<header class="major">
+	<!--<header class="major">
 		<h2><strong>The JourneyCoach</strong></h2>
 		<p>Travel in style and safely!</p>
-	</header>
+	</header>-->
 	
 	<div class="container center" style="margin-top: -5%">
 		<div class="8u">
@@ -87,6 +87,11 @@ if(isset($_POST['signUp'])){
 			</section>
 		</div>	
  
+		<div>
+			<?php if(isset($result)) echo $result; ?>
+			<?php if(!empty($form_errors)) echo show_errors($form_errors); ?>
+		</div>
+		
 		<form method = "POST" action = "" autocomplete = "off" accept-charset="UTF-8">
 			<div class="row">
 				<div class="8u">

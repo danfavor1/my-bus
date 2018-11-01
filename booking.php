@@ -4,7 +4,7 @@ include_once 'config/header.php';
 ?>
 
 <!-- Main -->
-			<section id="main" class="wrapper style1">
+			<section id="main" class="wrapper style1" style="margin-top: -5%">
 				<header class="major">
 					<h2><strong>To be worked on</strong></h2>
 					<p></p>

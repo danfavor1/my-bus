@@ -4,7 +4,7 @@ include_once 'config/header.php';
 ?>
 
 <!-- One -->
-			<section id="one" class="wrapper style1">
+			<section id="one" class="wrapper style1" style="margin-top: -5%">
 				<header class="major">
 					<h2><strong>Welcome to The JourneyCoach</strong></h2>
 					<p>Travel in style and safely!</p>

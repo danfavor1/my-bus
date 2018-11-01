@@ -70,10 +70,10 @@ if(isset($_POST['signIn'])){
 	
 <!-- Main -->
 <section id="main" class="wrapper style1">
-	<header class="major">
+	<!--<header class="major">
 		<h2><strong>The JourneyCoach</strong></h2>
 		<p>Travel in style and safely!</p>
-	</header>
+	</header>-->
 	
 	<div class="container center" style="margin-top: -3%">
 		<div class="8u">
@@ -87,7 +87,7 @@ if(isset($_POST['signIn'])){
 			<?php if(!empty($form_errors)) echo show_errors($form_errors); ?>
 		</div>
  
-        <form method = "POST" action = "" autocomplete = "off" accept-charset="UTF-8">
+        <form method = "POST" action = "" accept-charset="UTF-8">
 			<div class="row">
 				<div class="8u">
 					<label for="username">Username / Email</label>
@@ -96,8 +96,8 @@ if(isset($_POST['signIn'])){
 					<input placeholder="Enter password" class="form-control form-control-md" name="password" type="password" id="password" autofocus />		
 					<br />
 					<input class="button special" type="submit" name="signIn"  value="Login">
-					<br />
-					<p> Don't have an account? <a href="signup.php">Sign Up</a>
+					
+				<br />	<p> Don't have an account? <a href="signup.php">Sign Up</a>
 				</div>	
 			</div>
 		</form>
